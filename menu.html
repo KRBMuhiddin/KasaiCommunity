@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doument</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="./css/menu.css">
     <style>
         a{
@@ -14,18 +14,24 @@
             color: black;
         }
     </style>
+
 </head>
-<body >
-    <nav class=" nav.black .underline" style="padding: 10px;">
+<body style="margin: 0; height: 100%;margin-top: -35px;">
+    <nav class=" nav.black .underline" style="padding: 30px; padding-top: -50px; padding-right: 60px;">
         <div class="underline"></div>
         <div class="underline"></div>
         <div class="underline"></div>
         <a onClick="ul(0)">Bosh</a>
-        <a href="dostlar.html" target="ishchi" onClick="ul(1)">Do'stlar</a>
-        <a href="index.html" target="ishchi"  onClick="ul(2)">Tadbirlar</a>
+        <a href="friends.html" target="displayArea" onClick="ul(1)">Do'stlar</a>
+        <a href="events.html" target="displayArea"  onClick="ul(2)">Tadbirlar</a>
         <a onClick="ul(3)">Jamoamiz</a>
-        <a onClick="ul(4)">Aloqa</a>
+        <a onClick="ul(4)"><ins>Aloqa</ins></a>
     </nav>
+
+    <frameset>
+        <iframe src="friends.html" frameborder="0"></iframe>
+
+    </frameset>
 
       <script src="./js/menu.js"></script>
 </body>
